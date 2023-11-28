@@ -1,8 +1,9 @@
 # robot_frame_demo
 robot framework是一个软件测试框架，它将常用的软件测试操作封装为“关键字”库（它的第三方库还将Selenium、requests、Playwright也进行了类似的封装），驱动测试
 ### 项目结构
-1、一种包含tests/, resources/ 和 data/ 文件夹的项目结构:  
-&emsp;&emsp;A project structure for a more complex project with a more test cases and keywords.  
+*    一种包含tests/, resources/ 和 data/ 文件夹的项目结构:  
+
+A project structure for a more complex project with a more test cases and keywords.  
 Test Suites are organized in subfolders in the tests/ folder. Keywords, variables and python libraries are organized in subfolders in the resources/ folder. Test Data files - like Python or Yaml Variable files - are organized in subfolders in the data/ folder.  
 The project root folder contains the .gitlab-ci.yml file for CI/CD, the .gitignore file for git, the README.md file for documentation and the requirements.txt file for dependencies.  
 my_project  
@@ -106,20 +107,20 @@ def end_test(data, result):
 ```
 ### Robot Framework API  
 Access and modify all kinds of Robot Framework objects , e.g.  访问和修改所有类型的RF对象  
-&emsp;&emsp;Execution Results  测试执行结果  
-&emsp;&emsp;Test Suites  测试套件  
-&emsp;&emsp;Parsers  解析  
-&emsp;&emsp;Logger  日志记录  
-&emsp;&emsp;Result Writer  结果写入  
-&emsp;&emsp;...  
+*    Execution Results  测试执行结果  
+*    Test Suites  测试套件  
+*    Parsers  解析  
+*    Logger  日志记录  
+*    Result Writer  结果写入  
+*    ...  
 
 Check out the Public API and Entry Points for more information.  
 You can use the API to build your own tools or integrate Robot Framework with other tools.  
 Examples are  
-&emsp;&emsp;Integrating Robot Framework with (Test Management) Tools like Jira or TestRail  
-&emsp;&emsp;Building your own Test Runner in Python  
-&emsp;&emsp;Create tools for analyzing and refactoring Robot Framework Tests (like robotidy or robocop)  
-&emsp;&emsp;Create UIs for Robot Framework  
-&emsp;&emsp;Create Tools to distribute Robot Framework Tests  
-&emsp;&emsp;Create Web Services for Robot Framework  
-&emsp;&emsp;...  
+*    Integrating Robot Framework with (Test Management) Tools like Jira or TestRail  
+*    Building your own Test Runner in Python  
+*    Create tools for analyzing and refactoring Robot Framework Tests (like robotidy or robocop)  
+*    Create UIs for Robot Framework  
+*    Create Tools to distribute Robot Framework Tests  
+*    Create Web Services for Robot Framework  
+*    ...  
